@@ -1,0 +1,30 @@
+{
+  "name": "@mintjamsinc/webtop-app-theme",
+  "version": "1.0.1",
+  "description": "Styles and Themes for Webtop applications.",
+  "main": "dist/bundle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "build": "npm run lint && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintjamsinc/webtop-app-theme.git"
+  },
+  "keywords": [
+    "mintjams",
+    "webtop"
+  ],
+  "author": "MintJams Inc. <dev@mintjams.co.jp> (https://mintjams.jp/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mintjamsinc/webtop-app-theme/issues"
+  },
+  "homepage": "https://github.com/mintjamsinc/webtop-app-theme#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "rollup": "^2.56.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

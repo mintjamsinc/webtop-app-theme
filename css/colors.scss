@@ -1,0 +1,269 @@
+/* Copyright (c) 2021 MintJams Inc. Licensed under MIT License. */
+
+@charset "utf-8";
+
+.text-white-50 {
+	color: rgba(255, 255, 255, .5);
+}
+
+.text-black {
+	color: #1b1c1d;
+}
+.text-black-10 {
+	color: rgba(0, 0, 0, .1) !important;
+}
+.text-black-20 {
+	color: rgba(0, 0, 0, .2) !important;
+}
+.text-black-25 {
+	color: rgba(0, 0, 0, .25) !important;
+}
+.text-black-30 {
+	color: rgba(0, 0, 0, .3) !important;
+}
+.text-black-50 {
+	color: rgba(0, 0, 0, .5) !important;
+}
+
+.bg-black-1 {
+	background-color: rgba(0, 0, 0, .01);
+}
+.bg-black-5 {
+	background-color: rgba(0, 0, 0, .05);
+}
+.bg-black-10 {
+	background-color: rgba(0, 0, 0, .1);
+}
+.bg-black-50 {
+	background-color: rgba(0, 0, 0, .5);
+}
+.bg-white-10 {
+	background-color: rgba(255, 255, 255, .1);
+}
+.bg-white-20 {
+	background-color: rgba(255, 255, 255, .2);
+}
+.bg-white-30 {
+	background-color: rgba(255, 255, 255, .3);
+}
+.bg-white-40 {
+	background-color: rgba(255, 255, 255, .4);
+}
+.bg-white-50 {
+	background-color: rgba(255, 255, 255, .5);
+}
+.bg-white-75 {
+	background-color: rgba(255, 255, 255, .75);
+}
+.bg-white-90 {
+	background-color: rgba(255, 255, 255, .9);
+}
+.bg-light-warning {
+	background-color: #fffcf5;
+}
+.bg-selection {
+	background-color: #007bff;
+}
+
+.text-red {
+	color: #db2828;
+}
+.text-orange {
+	color: #f2711c;
+}
+.text-yellow {
+	color: #fbbd08;
+}
+.text-olive {
+	color: #b5cc18;
+}
+.text-green {
+	color: #21ba45;
+}
+.text-teal {
+	color: #00b5ad;
+}
+.text-blue {
+	color: #2185d0;
+}
+.text-violet {
+	color: #6435c9;
+}
+.text-purple {
+	color: #a333c8;
+}
+.text-pink {
+	color: #e03997;
+}
+.text-brown {
+	color: #a5673f;
+}
+.text-grey {
+	color: #767676;
+}
+.text-bluegrey {
+	color: #61798c;
+}
+.text-black {
+	color: #1b1c1d;
+}
+
+.bg-red {
+	background-color: #db2828;
+}
+.bg-orange {
+	background-color: #f2711c;
+}
+.bg-orange-10 {
+	background-color: rgba(242, 113, 28, .1);
+}
+.bg-yellow {
+	background-color: #fbbd08;
+}
+.bg-olive {
+	background-color: #b5cc18;
+}
+.bg-green {
+	background-color: #21ba45;
+}
+.bg-teal {
+	background-color: #00b5ad;
+}
+.bg-blue {
+	background-color: #2185d0;
+}
+.bg-blue-10 {
+	background-color: rgba(33, 133, 208, .1);
+}
+.bg-violet {
+	background-color: #6435c9;
+}
+.bg-purple {
+	background-color: #a333c8;
+}
+.bg-pink {
+	background-color: #e03997;
+}
+.bg-brown {
+	background-color: #a5673f;
+}
+.bg-grey {
+	background-color: #767676;
+}
+.bg-bluegrey {
+	background-color: #61798c;
+}
+.bg-bluegrey-10 {
+	background-color: rgba(97, 121, 140, .1);
+}
+.bg-black {
+	background-color: #1b1c1d;
+}
+
+.bg-lightblue-100 {
+	background-color: #b3e5fc;
+}
+.bg-cyan-100 {
+	background-color: #b2ebf2;
+}
+.bg-amber-100 {
+	background-color: #ffecb3;
+}
+
+.bg-darkgrey {
+	background-color: #616161;
+}
+
+.bg-m-red {
+	background-color: #d32f2f;
+}
+.bg-m-pink {
+	background-color: #c2185b;
+}
+.bg-m-purple {
+	background-color: #7b1fa2;
+}
+.bg-m-deeppurple {
+	background-color: #512da8;
+}
+.bg-m-indigo {
+	background-color: #303f9f;
+}
+.bg-m-blue {
+	background-color: #1976d2;
+}
+.bg-m-lightblue {
+	background-color: #0288d1;
+}
+.bg-m-cyan {
+	background-color: #0097a7;
+}
+.bg-m-teal {
+	background-color: #00796b;
+}
+.bg-m-green {
+	background-color: #388e3c;
+}
+.bg-m-lightgreen {
+	background-color: #689f38;
+}
+.bg-m-lime {
+	background-color: #afb42b;
+}
+.bg-m-yellow {
+	background-color: #fbc02d;
+}
+.bg-m-amber {
+	background-color: #ffa000;
+}
+.bg-m-orange {
+	background-color: #f57c00;
+}
+.bg-m-deeporange {
+	background-color: #e64a19;
+}
+.bg-m-brown {
+	background-color: #5d4037;
+}
+.bg-m-grey {
+	background-color: #616161;
+}
+.bg-m-lightgrey {
+	background-color: #8e8e8e;
+}
+.bg-m-darkgrey {
+	background-color: #373737;
+}
+.bg-m-bluegrey {
+	background-color: #455a64;
+}
+
+.bg-blur {
+	backdrop-filter: blur(1.5rem);
+}
+
+.bg-hover:not(.active):hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+.bg-hover-light:not(.active):hover {
+	background-color: rgba(0, 0, 0, .025);
+}
+.bg-hover-light-gradient:not(.active):hover {
+	background: linear-gradient(to right, rgba(0,0,0,0),  rgba(0,0,0,.035));
+}
+.bg-hover-white:not(.active):hover {
+	background-color: rgba(255, 255, 255, .5);
+}
+.bg-hover-lightwhite:not(.active):hover {
+	background-color: rgba(255, 255, 255, .25);
+}
+.bg-hover-primary:not(.active):hover {
+	background-color: rgba(0, 123, 255, .1);
+}
+.bg-hover-lightprimary:not(.active):hover {
+	background-color: rgba(0, 123, 255, .05);
+}
+
+.opacity-50 {
+	opacity: .5;
+}
