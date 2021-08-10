@@ -186,6 +186,7 @@ a.inherit, a.inherit:hover, a.inherit:active, a.inherit:visited, a.inherit:focus
 }
 
 .avatar {
+	position: relative;
 	width: 2.5rem;
 	height: 2.5rem;
 	min-width: 2.5rem;
@@ -193,6 +194,11 @@ a.inherit, a.inherit:hover, a.inherit:active, a.inherit:visited, a.inherit:focus
 	border-radius: 50%;
 
 	.content {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -200,10 +206,6 @@ a.inherit, a.inherit:hover, a.inherit:active, a.inherit:visited, a.inherit:focus
 		align-items: center;
 		justify-content: center;
 		font-size: 1.25rem;
-
-		&.content-image {
-			background-color: #fff;
-		}
 	}
 
 	&.avatar-lg {
