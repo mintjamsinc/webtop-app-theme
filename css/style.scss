@@ -187,11 +187,11 @@ a.inherit, a.inherit:hover, a.inherit:active, a.inherit:visited, a.inherit:focus
 
 .avatar {
 	position: relative;
+	border-radius: 50%;
 	width: 2.5rem;
 	height: 2.5rem;
 	min-width: 2.5rem;
 	min-height: 2.5rem;
-	border-radius: 50%;
 
 	.content {
 		position: absolute;
@@ -199,6 +199,7 @@ a.inherit, a.inherit:hover, a.inherit:active, a.inherit:visited, a.inherit:focus
 		bottom: 0;
 		left: 0;
 		right: 0;
+		border-radius: 50%;
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
