@@ -371,6 +371,10 @@ a.inherit, a.inherit:hover, a.inherit:active, a.inherit:visited, a.inherit:focus
 	-webkit-box-orient: vertical;
 }
 
+.not-found:not(:first-child) {
+	display: none;
+}
+
 @import "./animation.scss";
 @import "./borders.scss";
 @import "./colors.scss";
