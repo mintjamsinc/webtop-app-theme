@@ -105,12 +105,14 @@
  */
 .spinner {
 	margin: 0 auto;
-	width: 70px;
+	width: 5em;
 	text-align: center;
 }
-.spinner>div {
-	width: 18px;
-	height: 18px;
+.spinner > div {
+	width: 1.25em;
+	height: 1.25em;
+	margin-left: 0.05em;
+	margin-right: 0.05em;
 	background-color: #0288d1;
 	border-radius: 100%;
 	display: inline-block;
