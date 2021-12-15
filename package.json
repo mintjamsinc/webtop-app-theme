@@ -1,6 +1,6 @@
 {
   "name": "@mintjamsinc/webtop-app-theme",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "Styles and Themes for Webtop applications.",
   "main": "dist/bundle.min.js",
   "scripts": {
